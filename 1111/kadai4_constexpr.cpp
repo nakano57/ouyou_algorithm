@@ -10,7 +10,8 @@ Thread model: posix
 #include <iostream>
 #include <array>
 
-//全体を構造体で囲うのがコツ
+//配列を渡すため、全体を構造体で囲うのがコツ
+//classでもいいと思うけどPublicにしないといけない
 struct setupBoard
 {
     //constexprにより配列をコンパイル時に計算
